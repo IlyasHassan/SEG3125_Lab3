@@ -109,7 +109,7 @@ function restrictListProducts(prods, restriction) {
 function getTotalPrice(chosenProducts) {
 	totalPrice = 0;
 	for (let i=0; i<products.length; i+=1) {
-		if (chosenProducts.indexOf(products[i].name) > -1){
+		if (chosenProducts.indexOf(products[i].name) > -2){
 			totalPrice += products[i].price;
 		}
 	}
