@@ -3,77 +3,77 @@
 
 var products = [
     {
-		name: " Orange",
+		name: "Orange",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
 		price: 1.55
 	},
 	{
-		name: " Brocoli",
+		name: "Brocoli",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
 		price: 1.99
 	},
     {
-		name: " Oatmeal",
+		name: "Oatmeal",
 		lactoseFree: true,
 		nutFree: true,
         organic: false,
 		price: 2.35
 	},
     {
-		name: " Bread",
+		name: "Bread",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
 		price: 2.99
 	},
     {
-		name: " Yogurt",
+		name: "Yogurt",
 		lactoseFree: false,
 		nutFree: true,
         organic: true,
 		price: 3.55
 	},
     {
-		name: " Grapes",
+		name: "Grapes",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
 		price: 3.95
 	},
     {
-		name: " Milk",
+		name: "Milk",
 		lactoseFree: false,
 		nutFree: true,
         organic: true,
 		price: 4.25
 	},
     {
-		name: " Ice Cream",
+		name: "Ice Cream",
 		lactoseFree: false,
 		nutFree: true,
         organic: false,
 		price: 5.35
 	},
     {
-		name: " Cashew",
+		name: "Cashew",
 		lactoseFree: true,
 		nutFree: false,
         organic: true,
 		price: 5.55
 	},
     {
-		name: " Almond Milk",
+		name: "Almond Milk",
 		lactoseFree: true,
 		nutFree: false,
         organic: false,
 		price: 5.99
 	},
 	{
-		name: " Salmon",
+		name: "Salmon",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
