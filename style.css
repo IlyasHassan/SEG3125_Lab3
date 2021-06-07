@@ -115,7 +115,7 @@
     z-index: 1;
   }
   .navbar a:hover, .dropdown:hover .dropbtn {
-    filter: brightness(150%);
+    filter: brightness(50%);
   }
   .dropdown .dropbtn {
     font-size: 16px;
