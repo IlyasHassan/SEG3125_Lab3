@@ -34,6 +34,7 @@
     background-color: #ddd;
     font-size:x-large;
     font-family: Arial;
+    filter: brightness(50%);
   }
   
   /* Create an active/current tablink class */
