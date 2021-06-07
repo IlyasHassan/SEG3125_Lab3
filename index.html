@@ -19,7 +19,7 @@
   <h3>Client Information</h3>
   <p>Tell us your food restrictions</p>
 	<b id="chooseCat">Choose a Restriction</b>
-  <form id="dietSelect" name="dietSelect" onclick="populateListProductChoices(this.id, 'displayProduct')">
+  <form id="dietSelect" name="dietSelect" >
     <input value="LactoseFree" type="checkbox">
     <label >Lactose Free</label><br>
     <input value="NutFree" type="checkbox">
@@ -29,7 +29,7 @@
     <input value="None" type="checkbox">
     <label >None</label><br>
   </form>
-  <button id="addSelection" type="button" class="addbut" onclick= "populateListProductChoices(dietSelect, 'displayProduct')">Submit Selection</button>
+  <button id="addSelection" type="button" class="addbut" onclick= "populateListProductChoices('dietSelect', 'displayProduct')">Submit Selection</button>
 </div>
 
 <div id="Products" class="tabcontent">
