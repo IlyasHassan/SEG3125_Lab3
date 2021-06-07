@@ -25,8 +25,6 @@ function openInfo(evt, tabName) {
 	
 // generate a checkbox list from a list of products
 // it makes each product name as the label for the checkbos
-var form = document.getElementById('dietSelect');
-form.addEventListener('change', populateListProductChoices(this.id, 'displayProduct') );
 
 function populateListProductChoices(slct1, slct2) {
     var s1 = document.getElementById(slct1);

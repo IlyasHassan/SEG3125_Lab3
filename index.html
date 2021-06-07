@@ -20,16 +20,16 @@
   <p>Tell us your food restrictions</p>
 	<b id="chooseCat">Choose a Restriction</b>
   <form id="dietSelect" name="dietSelect" onclick="populateListProductChoices(this.id, 'displayProduct')">
-  <input type="checkbox">
-    <label value="LactoseFree">Lactose Free</label><br>
-    <input type="checkbox">
-    <label value="NutFree">Nut Free</label><br>
-    <input type="checkbox">
-    <label value="Organic">Organic</label><br>
-    <input type="checkbox">
-    <label value="None">None</label><br>
+    <input value="LactoseFree" type="checkbox">
+    <label >Lactose Free</label><br>
+    <input value="NutFree" type="checkbox">
+    <label >Nut Free</label><br>
+    <input value="Organic" type="checkbox">
+    <label >Organic</label><br>
+    <input value="None" type="checkbox">
+    <label >None</label><br>
   </form>
-  <button onclick= "populateListProductChoices(dietSelect, 'displayProduct')">Submit Selection</button>
+  <button id="addSelection" type="button" class="addbut" onclick= "populateListProductChoices(dietSelect, 'displayProduct')">Submit Selection</button>
 </div>
 
 <div id="Products" class="tabcontent">
