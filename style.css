@@ -4,6 +4,7 @@
 .tab {
     overflow: hidden;
     border: 1px solid rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(252, 80, 80), rgb(255, 255, 255));
     background-color: #a1a1a1;
     box-shadow:#a1a1a1 ;
     text-shadow:#a1a1a1 ;
@@ -79,7 +80,7 @@
   }
   html{
       background-color: rgb(235, 133, 133);
-      background-image: linear-gradient(rgb(252, 118, 118), rgb(255, 255, 255));
+      background-image: linear-gradient(rgb(252, 80, 80), rgb(255, 255, 255));
   }
   h1{
     text-shadow: 4px 4px 5px #e42e2e;
