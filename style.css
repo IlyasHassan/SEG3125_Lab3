@@ -86,19 +86,19 @@
   h1{
     font-family: Arial;
     font-size:xx-large;
-    text-shadow: 4px 4px 5px #e42e2e;
+    text-shadow: 4px 4px 5px darkgrey;
   }
   h3{
-    text-shadow: 4px 4px 5px #e42e2e;
+    text-shadow: 4px 4px 5px darkgrey;
   }
   #choose{
-    text-shadow: 4px 4px 5px #e42e2e;
+    text-shadow: 4px 4px 5px darkgrey;
   }
   #chooseCat{
-    text-shadow: 4px 4px 5px #e42e2e;   
+    text-shadow: 4px 4px 5px darkgrey; 
   }
   #HereCart{
-    text-shadow: 4px 4px 5px #e42e2e;     
+    text-shadow: 4px 4px 5px darkgrey;   
   }
   .dropdown:hover .dropdown-content {
     display: block;
