@@ -6,6 +6,8 @@ var products = [
 		name: "Orange",
 		lactoseFree: true,
 		nutFree: true,
+		vitaminRich: true,
+		italian: false,
         organic: true,
 		price: 1.55
 	},
@@ -13,6 +15,8 @@ var products = [
 		name: "Brocoli",
 		lactoseFree: true,
 		nutFree: true,
+		italian: false,
+		vitaminRich: true,
         organic: true,
 		price: 1.99
 	},
@@ -20,6 +24,8 @@ var products = [
 		name: "Oatmeal",
 		lactoseFree: true,
 		nutFree: true,
+		italian: false,
+		vitaminRich: true,
         organic: false,
 		price: 2.35
 	},
@@ -27,6 +33,8 @@ var products = [
 		name: "Bread",
 		lactoseFree: true,
 		nutFree: true,
+		italian: false,
+		vitaminRich: true,
         organic: true,
 		price: 2.99
 	},
@@ -34,6 +42,8 @@ var products = [
 		name: "Yogurt",
 		lactoseFree: false,
 		nutFree: true,
+		italian: false,
+		vitaminRich: true,
         organic: true,
 		price: 3.55
 	},
@@ -41,6 +51,8 @@ var products = [
 		name: "Grapes",
 		lactoseFree: true,
 		nutFree: true,
+		italian: false,
+		vitaminRich: false,
         organic: true,
 		price: 3.95
 	},
@@ -48,6 +60,8 @@ var products = [
 		name: "Milk",
 		lactoseFree: false,
 		nutFree: true,
+		italian: false,
+		vitaminRich: true,
         organic: true,
 		price: 4.25
 	},
@@ -55,6 +69,8 @@ var products = [
 		name: "Ice Cream",
 		lactoseFree: false,
 		nutFree: true,
+		italian: false,
+		vitaminRich: false,
         organic: false,
 		price: 5.35
 	},
@@ -62,6 +78,8 @@ var products = [
 		name: "Cashew",
 		lactoseFree: true,
 		nutFree: false,
+		italian: false,
+		vitaminRich: true,
         organic: true,
 		price: 5.55
 	},
@@ -69,6 +87,8 @@ var products = [
 		name: "Almond Milk",
 		lactoseFree: true,
 		nutFree: false,
+		italian: false,
+		vitaminRich: true,
         organic: false,
 		price: 5.99
 	},
@@ -76,7 +96,19 @@ var products = [
 		name: "Salmon",
 		lactoseFree: true,
 		nutFree: true,
+		italian: false,
+		vitaminRich: true,
         organic: true,
+		price: 10.55
+	},
+	{
+		name: "Pasta",
+		lactoseFree: true,
+		nutFree: true,
+		italian: false,
+		vitaminRich: false,
+        organic: true,
+		italian: true,
 		price: 10.55
 	},
 ];
@@ -96,6 +128,12 @@ function restrictListProducts(prods, restriction) {
 			product_names.push(prods[i].name + " (" + prods[i].price + " $)");
 		}
         else if ((restriction == "Organic") && (prods[i].organic == true)){
+			product_names.push(prods[i].name + " (" + prods[i].price + " $)");
+		}
+		else if ((restriction == "VitaminRich") && (prods[i].vitaminRich == true)){
+			product_names.push(prods[i].name + " (" + prods[i].price + " $)");
+		}
+		else if ((restriction == "Italian") && (prods[i].italian == true)){
 			product_names.push(prods[i].name + " (" + prods[i].price + " $)");
 		}
 		else if (restriction == "None"){
