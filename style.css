@@ -130,6 +130,7 @@
   }
   .dropdown {
     float: left;
+    font-family: Arial;
     overflow: hidden;
   }
   .navbar {
