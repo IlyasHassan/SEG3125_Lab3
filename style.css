@@ -16,6 +16,7 @@
   /* Style the buttons that are used to open the tab content */
   .tab button {
     font-size:x-large;
+    color: white;
     font-family: Arial;
     width: 50px;
     height: 25px;
@@ -25,13 +26,13 @@
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    background-color: #a1a1a1;
+    background-color: #000000;
     border-radius: 4px;
   }
   
   /* Change background color of buttons on hover */
   .tab button:hover {
-    background-color: #ddd;
+    background-color: rgb(0, 0, 0);
     font-size:x-large;
     font-family: Arial;
     filter: brightness(50%);
@@ -41,7 +42,7 @@
   .tab button.active {
     font-size:x-large;
     font-family: Arial;
-    background-color: #a1a1a1;
+    background-color: #000000;
     box-shadow:#a1a1a1 ;
     text-shadow:#a1a1a1 ;
   }
