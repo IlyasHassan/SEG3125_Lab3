@@ -114,7 +114,7 @@
     z-index: 1;
   }
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    filter: brightness(150%);
   }
   .dropdown .dropbtn {
     font-size: 16px;
