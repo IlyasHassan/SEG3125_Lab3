@@ -79,6 +79,7 @@
   }
   html{
       background-color: rgb(235, 133, 133);
+      background-image: linear-gradient(rgb(252, 118, 118), rgb(255, 255, 255));
   }
   h1{
     text-shadow: 4px 4px 5px #e42e2e;
