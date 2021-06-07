@@ -139,6 +139,9 @@
     background-color: #333;
     font-family: Arial;
   }  
+  .show {
+    display: block;
+  }
   
       
   
